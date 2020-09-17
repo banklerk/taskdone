@@ -1,0 +1,179 @@
+/*TEMP OUTLINE STYLES FOR STUDIO */
+body {
+    padding: 3px !important;
+}
+
+body > *,
+body > * > *,
+body > * > * > *,
+body > * > * > * > *,
+body > * > * > * > * > * {
+    position: relative;
+}
+
+body > *::before,
+body > * > *::before,
+body > * > * > *::before,
+body > * > * > * > *::before,
+body > * > * > * > * > *::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Courier New", "monotype";
+    text-transform: none;
+    white-space: nowrap;
+}
+
+body > * {
+    background-color: rgba(0, 128, 0, 0.2);
+    box-shadow: 0 0 0 2px #43810B;
+}
+
+body > *::before {
+    color: #fff;
+    background-color: #43810B;
+}
+
+body > * > * {
+    /* z-index: 1 */
+    background-color: rgba(255, 45, 82, 0.2);
+    box-shadow: inset 0 0 0 3px #EF482A;
+}
+
+body > * > *::before {
+    color: #fff;
+    background-color: #EF482A;
+}
+
+body > * > * > * {
+    z-index: 1;
+    background-color: rgba(255, 255, 0, 0.4);
+    box-shadow: inset 0 0 0 2px #FAED33;
+}
+
+body > * > * > *::before {
+    font-size: 14px;
+    color: #333333;
+    background-color: #FAED33;
+}
+
+body > * > * > * > * {
+    background-color: rgba(32, 16, 176, 0.2);
+    box-shadow: inset 0 0 0 2px #2010b0;
+}
+
+body > * > * > * > *::before {
+    color: #fff;
+    background-color: #2010b0;
+}
+
+body > * > * > * > * > * {
+    background-color: rgba(164, 14, 201, 0.2);
+    box-shadow: inset 0 0 0 2px #a40ec9;
+}
+
+body > * > * > * > * > *::before {
+    color: #fff;
+    background-color: #a40ec9;
+}
+
+.index-wrapper::before {
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    content: "ind-wrapper";
+}
+
+/* .main-header::before
+z-index: 1
+bottom: 0
+right: 0
+content: "main-header" */
+.nav-mobile::before {
+    top: 0;
+    left: 0;
+    content: "nav-mobile";
+}
+
+.main-header-toggle::before {
+    bottom: 0;
+    left: 0;
+    content: "toggle";
+}
+
+.site-navigation::before {
+    bottom: 0;
+    left: 0;
+    content: "site-nav";
+}
+
+.site-nav-container::before {
+    top: 0;
+    right: 0;
+    content: "site-nav-container";
+}
+
+.main-page::before {
+    top: 0;
+    left: 0;
+    content: "main-page";
+}
+
+.main-footer::before {
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    content: "main-footer";
+}
+
+.main-content::before {
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    content: "main-content";
+}
+
+.gallery-1::before {
+    top: 0;
+    right: 0;
+    content: "gallery-1";
+}
+
+.gallery-2::before {
+    top: 0;
+    right: 0;
+    content: "gallery-2";
+}
+
+.main-page-logo::before {
+    top: 0;
+    right: 0;
+    content: "main-page-logo";
+}
+
+.main-footer-wrapper::before {
+    top: 0;
+    left: 0;
+    content: "footer-wrapper";
+}
+
+.footer-contact::before {
+    top: 0;
+    right: 0;
+    content: "contact";
+}
+
+.footer-welcome::before {
+    top: 0;
+    right: 0;
+    content: "welcome";
+}
+
+.footer-post::before {
+    top: 0;
+    right: 0;
+    content: "post";
+}
